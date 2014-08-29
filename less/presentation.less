@@ -608,9 +608,8 @@ body {
 	font-family: 'MuseoSans-500';
 	src: url('webfonts/29DF2B_0_0.eot');
 	src: url('webfonts/29DF2B_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29DF2B_0_0.woff') format('woff'),url('webfonts/29DF2B_0_0.ttf') format('truetype');    
-     
-    min-height: 740px;
-    background: white; // whitesmoke;
+	min-height: 740px;
+	background: white; // whitesmoke;
 }
 
 
@@ -643,7 +642,7 @@ body {
 	ul {
 		font-size: 2.5em;
 		list-style-type: disc;
-		padding-left: 2em;
+		padding-left: 1.5em;
 	}
 }
 
@@ -692,6 +691,11 @@ body {
 
 #howTo {
 	background-color: rgb(250,243,188);
+	text-align: center;
+	h3 {
+		font-style:italic;
+		font-size: 2em;
+	}
 }
 
 #stopDoingThat {
@@ -876,7 +880,7 @@ body {
     padding-top:330px;
 }
 
-#credits, #pictures {
+#credits, #pictures, #survey {
 	width:900px;
 	height:700px;
 	&.past, &.future {
@@ -885,6 +889,14 @@ body {
 	ul {
 		font-size:1em;
 		list-style: none;
+	}
+}
+
+#survey {
+	font-size:1.1em;
+	a:link {
+		color: blue;
+		text-decoration: underline;
 	}
 }
 
