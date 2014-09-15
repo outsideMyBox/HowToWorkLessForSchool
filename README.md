@@ -1,11 +1,10 @@
 
 Personal presentation, work in progress.
 
-How to work less for school?
-============================
+How to make the best of school?
+===============================
 
-  cd HowToWorkLessForSchool
-  python -m SimpleHTTPServer 8080
+	python -m SimpleHTTPServer 8080
 
 
 
